@@ -1,0 +1,619 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B5F0A4E7249554790013B16A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F0A4E6249554790013B16A /* AppDelegate.swift */; };
+		B5F0A4E9249554790013B16A /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = B5F0A4E8249554790013B16A /* GameScene.sks */; };
+		B5F0A4EB249554790013B16A /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = B5F0A4EA249554790013B16A /* Actions.sks */; };
+		B5F0A4ED249554790013B16A /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F0A4EC249554790013B16A /* GameScene.swift */; };
+		B5F0A4EF249554790013B16A /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F0A4EE249554790013B16A /* GameViewController.swift */; };
+		B5F0A4F2249554790013B16A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5F0A4F0249554790013B16A /* Main.storyboard */; };
+		B5F0A4F42495547B0013B16A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5F0A4F32495547B0013B16A /* Assets.xcassets */; };
+		B5F0A4F72495547C0013B16A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5F0A4F52495547C0013B16A /* LaunchScreen.storyboard */; };
+		B5F0A5022495547C0013B16A /* Space_RushTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F0A5012495547C0013B16A /* Space_RushTests.swift */; };
+		B5F0A50D2495547C0013B16A /* Space_RushUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F0A50C2495547C0013B16A /* Space_RushUITests.swift */; };
+		B5F0A51B249966650013B16A /* theBoldFont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B5F0A51A249966650013B16A /* theBoldFont.ttf */; };
+		B5F0A51C249966810013B16A /* theBoldFont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B5F0A51A249966650013B16A /* theBoldFont.ttf */; };
+		B5F0A51E249A94EF0013B16A /* Scene_GameOver.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F0A51D249A94EF0013B16A /* Scene_GameOver.swift */; };
+		B5F0A520249D29BA0013B16A /* MainScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F0A51F249D29BA0013B16A /* MainScene.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B5F0A4FE2495547C0013B16A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5F0A4DB249554790013B16A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5F0A4E2249554790013B16A;
+			remoteInfo = "Space Rush";
+		};
+		B5F0A5092495547C0013B16A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5F0A4DB249554790013B16A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5F0A4E2249554790013B16A;
+			remoteInfo = "Space Rush";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B5F0A4E3249554790013B16A /* Space Rush.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Space Rush.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5F0A4E6249554790013B16A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B5F0A4E8249554790013B16A /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		B5F0A4EA249554790013B16A /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		B5F0A4EC249554790013B16A /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		B5F0A4EE249554790013B16A /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		B5F0A4F1249554790013B16A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B5F0A4F32495547B0013B16A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B5F0A4F62495547C0013B16A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B5F0A4F82495547C0013B16A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5F0A4FD2495547C0013B16A /* Space RushTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Space RushTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5F0A5012495547C0013B16A /* Space_RushTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Space_RushTests.swift; sourceTree = "<group>"; };
+		B5F0A5032495547C0013B16A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5F0A5082495547C0013B16A /* Space RushUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Space RushUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5F0A50C2495547C0013B16A /* Space_RushUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Space_RushUITests.swift; sourceTree = "<group>"; };
+		B5F0A50E2495547C0013B16A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5F0A51A249966650013B16A /* theBoldFont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = theBoldFont.ttf; sourceTree = "<group>"; };
+		B5F0A51D249A94EF0013B16A /* Scene_GameOver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scene_GameOver.swift; sourceTree = "<group>"; };
+		B5F0A51F249D29BA0013B16A /* MainScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScene.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B5F0A4E0249554790013B16A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5F0A4FA2495547C0013B16A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5F0A5052495547C0013B16A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B5F0A4DA249554790013B16A = {
+			isa = PBXGroup;
+			children = (
+				B5F0A4E5249554790013B16A /* Space Rush */,
+				B5F0A5002495547C0013B16A /* Space RushTests */,
+				B5F0A50B2495547C0013B16A /* Space RushUITests */,
+				B5F0A4E4249554790013B16A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B5F0A4E4249554790013B16A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5F0A4E3249554790013B16A /* Space Rush.app */,
+				B5F0A4FD2495547C0013B16A /* Space RushTests.xctest */,
+				B5F0A5082495547C0013B16A /* Space RushUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B5F0A4E5249554790013B16A /* Space Rush */ = {
+			isa = PBXGroup;
+			children = (
+				B5F0A4E6249554790013B16A /* AppDelegate.swift */,
+				B5F0A4E8249554790013B16A /* GameScene.sks */,
+				B5F0A4EA249554790013B16A /* Actions.sks */,
+				B5F0A4EC249554790013B16A /* GameScene.swift */,
+				B5F0A51F249D29BA0013B16A /* MainScene.swift */,
+				B5F0A51D249A94EF0013B16A /* Scene_GameOver.swift */,
+				B5F0A4EE249554790013B16A /* GameViewController.swift */,
+				B5F0A51A249966650013B16A /* theBoldFont.ttf */,
+				B5F0A4F0249554790013B16A /* Main.storyboard */,
+				B5F0A4F32495547B0013B16A /* Assets.xcassets */,
+				B5F0A4F52495547C0013B16A /* LaunchScreen.storyboard */,
+				B5F0A4F82495547C0013B16A /* Info.plist */,
+			);
+			path = "Space Rush";
+			sourceTree = "<group>";
+		};
+		B5F0A5002495547C0013B16A /* Space RushTests */ = {
+			isa = PBXGroup;
+			children = (
+				B5F0A5012495547C0013B16A /* Space_RushTests.swift */,
+				B5F0A5032495547C0013B16A /* Info.plist */,
+			);
+			path = "Space RushTests";
+			sourceTree = "<group>";
+		};
+		B5F0A50B2495547C0013B16A /* Space RushUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B5F0A50C2495547C0013B16A /* Space_RushUITests.swift */,
+				B5F0A50E2495547C0013B16A /* Info.plist */,
+			);
+			path = "Space RushUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B5F0A4E2249554790013B16A /* Space Rush */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5F0A5112495547C0013B16A /* Build configuration list for PBXNativeTarget "Space Rush" */;
+			buildPhases = (
+				B5F0A4DF249554790013B16A /* Sources */,
+				B5F0A4E0249554790013B16A /* Frameworks */,
+				B5F0A4E1249554790013B16A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Space Rush";
+			productName = "Space Rush";
+			productReference = B5F0A4E3249554790013B16A /* Space Rush.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B5F0A4FC2495547C0013B16A /* Space RushTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5F0A5142495547C0013B16A /* Build configuration list for PBXNativeTarget "Space RushTests" */;
+			buildPhases = (
+				B5F0A4F92495547C0013B16A /* Sources */,
+				B5F0A4FA2495547C0013B16A /* Frameworks */,
+				B5F0A4FB2495547C0013B16A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5F0A4FF2495547C0013B16A /* PBXTargetDependency */,
+			);
+			name = "Space RushTests";
+			productName = "Space RushTests";
+			productReference = B5F0A4FD2495547C0013B16A /* Space RushTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B5F0A5072495547C0013B16A /* Space RushUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5F0A5172495547C0013B16A /* Build configuration list for PBXNativeTarget "Space RushUITests" */;
+			buildPhases = (
+				B5F0A5042495547C0013B16A /* Sources */,
+				B5F0A5052495547C0013B16A /* Frameworks */,
+				B5F0A5062495547C0013B16A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5F0A50A2495547C0013B16A /* PBXTargetDependency */,
+			);
+			name = "Space RushUITests";
+			productName = "Space RushUITests";
+			productReference = B5F0A5082495547C0013B16A /* Space RushUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B5F0A4DB249554790013B16A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Varun Vishnubhotla";
+				TargetAttributes = {
+					B5F0A4E2249554790013B16A = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					B5F0A4FC2495547C0013B16A = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = B5F0A4E2249554790013B16A;
+					};
+					B5F0A5072495547C0013B16A = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = B5F0A4E2249554790013B16A;
+					};
+				};
+			};
+			buildConfigurationList = B5F0A4DE249554790013B16A /* Build configuration list for PBXProject "Space Rush" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B5F0A4DA249554790013B16A;
+			productRefGroup = B5F0A4E4249554790013B16A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B5F0A4E2249554790013B16A /* Space Rush */,
+				B5F0A4FC2495547C0013B16A /* Space RushTests */,
+				B5F0A5072495547C0013B16A /* Space RushUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B5F0A4E1249554790013B16A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5F0A4F2249554790013B16A /* Main.storyboard in Resources */,
+				B5F0A4E9249554790013B16A /* GameScene.sks in Resources */,
+				B5F0A51B249966650013B16A /* theBoldFont.ttf in Resources */,
+				B5F0A4F42495547B0013B16A /* Assets.xcassets in Resources */,
+				B5F0A4F72495547C0013B16A /* LaunchScreen.storyboard in Resources */,
+				B5F0A4EB249554790013B16A /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5F0A4FB2495547C0013B16A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5F0A51C249966810013B16A /* theBoldFont.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5F0A5062495547C0013B16A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B5F0A4DF249554790013B16A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5F0A4ED249554790013B16A /* GameScene.swift in Sources */,
+				B5F0A4EF249554790013B16A /* GameViewController.swift in Sources */,
+				B5F0A51E249A94EF0013B16A /* Scene_GameOver.swift in Sources */,
+				B5F0A520249D29BA0013B16A /* MainScene.swift in Sources */,
+				B5F0A4E7249554790013B16A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5F0A4F92495547C0013B16A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5F0A5022495547C0013B16A /* Space_RushTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5F0A5042495547C0013B16A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5F0A50D2495547C0013B16A /* Space_RushUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B5F0A4FF2495547C0013B16A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5F0A4E2249554790013B16A /* Space Rush */;
+			targetProxy = B5F0A4FE2495547C0013B16A /* PBXContainerItemProxy */;
+		};
+		B5F0A50A2495547C0013B16A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5F0A4E2249554790013B16A /* Space Rush */;
+			targetProxy = B5F0A5092495547C0013B16A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B5F0A4F0249554790013B16A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5F0A4F1249554790013B16A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B5F0A4F52495547C0013B16A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5F0A4F62495547C0013B16A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B5F0A50F2495547C0013B16A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B5F0A5102495547C0013B16A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B5F0A5122495547C0013B16A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NA8MCWV8UC;
+				INFOPLIST_FILE = "Space Rush/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.VarunVishnubhotla.Space-Rush";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B5F0A5132495547C0013B16A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NA8MCWV8UC;
+				INFOPLIST_FILE = "Space Rush/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.VarunVishnubhotla.Space-Rush";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B5F0A5152495547C0013B16A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NA8MCWV8UC;
+				INFOPLIST_FILE = "Space RushTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.VarunVishnubhotla.Space-RushTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Space Rush.app/Space Rush";
+			};
+			name = Debug;
+		};
+		B5F0A5162495547C0013B16A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NA8MCWV8UC;
+				INFOPLIST_FILE = "Space RushTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.VarunVishnubhotla.Space-RushTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Space Rush.app/Space Rush";
+			};
+			name = Release;
+		};
+		B5F0A5182495547C0013B16A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NA8MCWV8UC;
+				INFOPLIST_FILE = "Space RushUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.VarunVishnubhotla.Space-RushUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Space Rush";
+			};
+			name = Debug;
+		};
+		B5F0A5192495547C0013B16A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NA8MCWV8UC;
+				INFOPLIST_FILE = "Space RushUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.VarunVishnubhotla.Space-RushUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Space Rush";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B5F0A4DE249554790013B16A /* Build configuration list for PBXProject "Space Rush" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5F0A50F2495547C0013B16A /* Debug */,
+				B5F0A5102495547C0013B16A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5F0A5112495547C0013B16A /* Build configuration list for PBXNativeTarget "Space Rush" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5F0A5122495547C0013B16A /* Debug */,
+				B5F0A5132495547C0013B16A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5F0A5142495547C0013B16A /* Build configuration list for PBXNativeTarget "Space RushTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5F0A5152495547C0013B16A /* Debug */,
+				B5F0A5162495547C0013B16A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5F0A5172495547C0013B16A /* Build configuration list for PBXNativeTarget "Space RushUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5F0A5182495547C0013B16A /* Debug */,
+				B5F0A5192495547C0013B16A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B5F0A4DB249554790013B16A /* Project object */;
+}
